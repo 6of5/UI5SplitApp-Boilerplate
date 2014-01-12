@@ -1,0 +1,29 @@
+<core:View
+    controllerName="view.Info"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core" >
+    <Page
+        title="{i18n>WELCOME_TITLE}"
+        enableScrolling="false">
+        <footer>
+            <Bar>
+            </Bar>
+        </footer>
+        <content>
+            <VBox
+                alignItems="Center"
+                justifyContent="Center" >
+                <Text
+                    text="{i18n>WELCOME_INFO}"
+                    class="welcomeText" >
+                </Text>
+                <Link
+                    text="blog.mypro.de"
+                    href="http://blog.mypro.de" >
+                </Link>                
+                <Image
+                    src="img/114_iPhone-Retina_Web_Clip.png" />                
+            </VBox>
+        </content>
+    </Page>
+</core:View>

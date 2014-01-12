@@ -1,0 +1,13 @@
+{
+    "Menu": [{
+        "title": "Menu",
+        "icon": "sap-icon://list",
+        "targetPage": "CoffeeList",
+        "description": "Coffee Menu"
+    }, {
+        "title": "About",
+        "icon": "sap-icon://sys-help",
+        "targetPage": "Info",
+        "description": "More Information"
+    }]
+}
