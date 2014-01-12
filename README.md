@@ -7,8 +7,8 @@ smartphones with iOS, Android or BB10 (iPhone 4/5, Nexus 4, Z10, ....).
 It could be used as starting point for development.
 
 * Source: [https://github.com/6of5/UI5SplitApp-Boilerplate](https://github.com/6of5/UI5SplitApp-Boilerplate)
-* More Info in the following Blog Post: [http://blog.mypro.de/2014/01/12/ui5-mobile-spl…pp-boilerplate/](http://blog.mypro.de/2014/01/12/ui5-mobile-spl…pp-boilerplate/)
-* Twitter: [@hpseitz](http://twitter.com/hpseitz)
+* More Info in the following Blog Post: [http://blog.mypro.de/2014/01/12/ui5-mobile-splitapp-boilerplate/](http://blog.mypro.de/2014/01/12/ui5-mobile-splitapp-boilerplate/)
+* Contact via Twitter: [@hpseitz](http://twitter.com/hpseitz)
 
 ## Features
 * based on OpenUI5, more Infos under [http://sap.github.io/openui5/](http://sap.github.io/openui5/)
