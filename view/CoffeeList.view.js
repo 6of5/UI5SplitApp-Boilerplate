@@ -19,7 +19,7 @@ sap.ui.jsview("view.CoffeeList", {
 
 
         return new sap.m.Page({
-            title: "Menu",
+            title: "Coffee Menu",
             content: [oList],
             headerContent: [],
             footer: new sap.m.Bar({})
