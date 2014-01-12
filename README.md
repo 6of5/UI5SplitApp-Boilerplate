@@ -1,7 +1,7 @@
 # UI5 SplitApp Boilerplate
 
 UI5 SplitApp Boilerplate is a template for building Apps based on OpenUI5 or SAPUI5.
-The Split App itself is especially designed for tablet usage (iPad), but shoud also be usable on
+The Split App itself is especially designed for tablet usage (iPad), but should also be usable on
 smartphones with iOS, Android or BB10 (iPhone 4/5, Nexus 4, Z10, ....). 
 
 It could be used as starting point for development.
