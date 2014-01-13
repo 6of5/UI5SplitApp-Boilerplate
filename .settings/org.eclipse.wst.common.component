@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="UI5SplitApp-Boilerplate">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="UI5SplitApp-Boilerplate"/>
+        <property name="java-output-path" value="/UI5SplitApp-Boilerplate/build/classes"/>
+    </wb-module>
+</project-modules>
