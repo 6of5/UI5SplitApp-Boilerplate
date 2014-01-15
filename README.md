@@ -8,6 +8,7 @@ It could be used as starting point for development.
 
 * Source: [https://github.com/6of5/UI5SplitApp-Boilerplate](https://github.com/6of5/UI5SplitApp-Boilerplate)
 * More Info in the following Blog Post: [http://blog.mypro.de/2014/01/12/ui5-mobile-splitapp-boilerplate/](http://blog.mypro.de/2014/01/12/ui5-mobile-splitapp-boilerplate/)
+* Usage with Eclipse + SAP UI5 Toolkit see [http://blog.mypro.de/2014/01/14/ui5-boilerplate-with-eclipse/](http://blog.mypro.de/2014/01/14/ui5-boilerplate-with-eclipse/), use branch eclipseKepler
 * Contact via Twitter: [@hpseitz](http://twitter.com/hpseitz)
 
 ## Features
@@ -17,5 +18,14 @@ It could be used as starting point for development.
 * default file structure (i18n, model, view, css, js)
 * i18n base model
 
+## Usage with Eclipse 4.3 + SAP UI Development Toolkit for HTML5
+* use branch eclipseKepler instead of master branch
+* More Details under [http://blog.mypro.de/2014/01/14/ui5-boilerplate-with-eclipse/](http://blog.mypro.de/2014/01/14/ui5-boilerplate-with-eclipse/)
+```
+git clone -b eclipseKepler https://github.com/6of5/UI5SplitApp-Boilerplate.git
+```
+
 ## License
 Apache License, Version 2.0
+
+![ui5 Logo](http://blog.mypro.de/wp-content/uploads/2014/01/ui5_144.jpg)
