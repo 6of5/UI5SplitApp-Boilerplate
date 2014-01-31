@@ -7,7 +7,8 @@ smartphones with iOS, Android or BB10 (iPhone 4/5, Nexus 4, Z10, ....).
 It could be used as starting point for development.
 
 * Source: [https://github.com/6of5/UI5SplitApp-Boilerplate](https://github.com/6of5/UI5SplitApp-Boilerplate)
-* More Info in the following Blog Post: [http://blog.mypro.de/2014/01/12/ui5-mobile-splitapp-boilerplate/](http://blog.mypro.de/2014/01/12/ui5-mobile-splitapp-boilerplate/)
+* More Info in the following SCN Blog Post: [http://scn.sap.com/community/developer-center/front-end/blog/2014/01/13/ui5-mobile-splitapp-boilerplate/](http://scn.sap.com/community/developer-center/front-end/blog/2014/01/13/ui5-mobile-splitapp-boilerplate/)
+* Blog Entries [http://blog.mypro.de/tag/ui5boilerplate/](http://blog.mypro.de/tag/ui5boilerplate/)
 * Usage with Eclipse + SAP UI5 Toolkit see [http://blog.mypro.de/2014/01/14/ui5-boilerplate-with-eclipse/](http://blog.mypro.de/2014/01/14/ui5-boilerplate-with-eclipse/), use branch eclipseKepler
 * Contact via Twitter: [@hpseitz](http://twitter.com/hpseitz)
 

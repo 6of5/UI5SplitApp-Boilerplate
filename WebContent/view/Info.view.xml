@@ -18,9 +18,17 @@
                     class="welcomeText" >
                 </Text>
                 <Link
-                    text="blog.mypro.de"
-                    href="http://blog.mypro.de" >
-                </Link>                
+                    text="http://blog.mypro.de"
+                    href="http://blog.mypro.de/tag/ui5boilerplate/" >
+                </Link>   
+                <Text
+                    text="UI5 SplitApp Boilerplate on GitHub:"
+                    class="welcomeText" >
+                </Text>
+                <Link
+                    text="https://github.com/6of5/UI5SplitApp-Boilerplate"
+                    href="https://github.com/6of5/UI5SplitApp-Boilerplate" >
+                </Link>                            
                 <Image
                     src="img/114_iPhone-Retina_Web_Clip.png" />                
             </VBox>

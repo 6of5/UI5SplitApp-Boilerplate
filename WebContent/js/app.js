@@ -1,11 +1,10 @@
 sap.ui.localResources("view");
 sap.ui.localResources("model");
+sap.ui.localResources("app");
 
-jQuery.sap.registerModulePath('base', 'js');
+jQuery.sap.require("app.Component");
 
-jQuery.sap.require("base.Application");
-
-//launch application
-var oApp = new Application({
-    root: "root"
-});
+//create app Component and place at dom element with id = root
+new sap.ui.core.ComponentContainer({
+    name: "app"
+}).placeAt('root');
