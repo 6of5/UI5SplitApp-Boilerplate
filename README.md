@@ -7,6 +7,7 @@ smartphones with iOS, Android or BB10 (iPhone 4/5, Nexus 4, Z10, ....).
 It could be used as starting point for development.
 
 * Source: [https://github.com/6of5/UI5SplitApp-Boilerplate](https://github.com/6of5/UI5SplitApp-Boilerplate)
+
 More Info in the following SCN Blog Posts: 
 * UI5 Boilerplate explained Part 1: [http://scn.sap.com/community/developer-center/front-end/blog/2014/02/01/ui5-boilerplate-explained-part-1](http://scn.sap.com/community/developer-center/front-end/blog/2014/02/01/ui5-boilerplate-explained-part-1)
 * UI5 SplitApp Boilerplate[http://scn.sap.com/community/developer-center/front-end/blog/2014/01/13/ui5-mobile-splitapp-boilerplate/](http://scn.sap.com/community/developer-center/front-end/blog/2014/01/13/ui5-mobile-splitapp-boilerplate/)
