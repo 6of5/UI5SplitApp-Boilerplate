@@ -2,13 +2,14 @@
 
 UI5 SplitApp Boilerplate is a template for building Apps based on OpenUI5 or SAPUI5.
 The Split App itself is especially designed for tablet usage (iPad), but should also be usable on
-smartphones with iOS, Android or BB10 (iPhone 4/5, Nexus 4, Z10, ....). 
+smartphones with iOS, Android or BB10 (iPhone 4s/5/5s, Nexus 4/5, ....). 
 
 It could be used as starting point for development.
 
 * Source: [https://github.com/6of5/UI5SplitApp-Boilerplate](https://github.com/6of5/UI5SplitApp-Boilerplate)
 
-More Info in the following SCN Blog Posts: 
+More Info can be found here:
+* UI5 Boilerplate Wiki Page: [All Infos collected on dedicated 6of5 Wiki Page](https://www.6of5.com/6of5/go/show/1001/UI5/displaypage.htm?PAGE=UI5Boilerplate)  
 * UI5 Boilerplate explained Part 1: [http://scn.sap.com/community/developer-center/front-end/blog/2014/02/01/ui5-boilerplate-explained-part-1](http://scn.sap.com/community/developer-center/front-end/blog/2014/02/01/ui5-boilerplate-explained-part-1)
 * UI5 SplitApp Boilerplate [http://scn.sap.com/community/developer-center/front-end/blog/2014/01/13/ui5-mobile-splitapp-boilerplate/](http://scn.sap.com/community/developer-center/front-end/blog/2014/01/13/ui5-mobile-splitapp-boilerplate/)
 * Blog Entries [http://blog.mypro.de/tag/ui5boilerplate/](http://blog.mypro.de/tag/ui5boilerplate/)
