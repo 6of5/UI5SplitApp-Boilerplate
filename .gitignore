@@ -5,3 +5,5 @@
 *.class
 /build
 node_modules
+.idea
+.project
