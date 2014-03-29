@@ -1,0 +1,25 @@
+{
+    "name": "ui5-boilerplate",
+    "version": "0.6.1",
+    "description": "UI5 Mobile Boilerplate",
+    "main": "index.html",
+    "dependencies": {
+        "express": "~3.4.8",
+        "open": "~0.0.4"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-express-server": "~0.4.11",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-open": "~0.2.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/6of5/UI5SplitApp-Boilerplate.git"
+    },
+    "author": "6of5",
+    "license": "Apache License, Version 2.0"
+}

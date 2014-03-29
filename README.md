@@ -7,6 +7,9 @@ smartphones with iOS, Android or BB10 (iPhone 4s/5/5s, Nexus 4/5, ....).
 It could be used as starting point for development.
 
 * Source: [https://github.com/6of5/UI5SplitApp-Boilerplate](https://github.com/6of5/UI5SplitApp-Boilerplate)
+```
+git clone https://github.com/6of5/UI5SplitApp-Boilerplate.git
+```
 
 More Info can be found here:
 * UI5 Boilerplate Wiki Page: [All Infos collected on dedicated 6of5 Wiki Page](https://www.6of5.com/6of5/go/show/1001/UI5/displaypage.htm?PAGE=UI5Boilerplate)  
@@ -23,6 +26,20 @@ More Info can be found here:
 * follows "Mobile First" approach, but App also works on Desktop (Chrome latest, Firefox latest, Safari, IE9 and IE10)
 * default file structure (i18n, model, view, css, js)
 * i18n base model
+
+## Local Development with Grunt
+Asuming Node.js is already installed.
+### Setup
+Run the following commands:
+```
+npm install -g grunt-cli
+npm install
+```
+### Run Dev Server and Open UI5 Boilerplate in Browser
+Execute following commands:
+```
+grunt server
+```
 
 ## Usage with Eclipse 4.3 + SAP UI Development Toolkit for HTML5
 * use branch eclipseKepler instead of master branch
