@@ -28,15 +28,15 @@ More Info can be found here:
 * i18n base model
 
 ## Local Development with Grunt
-Asuming Node.js is already installed.
+Assuming Node.js is already installed.
 ### Setup
-Run the following commands:
+Run the following commands once:
 ```
 npm install -g grunt-cli
 npm install
 ```
 ### Run Dev Server and Open UI5 Boilerplate in Browser
-Execute following commands:
+Execute following commands to start the dev server:
 ```
 grunt server
 ```
