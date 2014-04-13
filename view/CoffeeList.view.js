@@ -20,6 +20,8 @@ sap.ui.jsview("view.CoffeeList", {
 
         return new sap.m.Page({
             title: "Coffee Menu",
+            showNavButton: "{device>/isPhone}",
+            navButtonPress: [oController.doNavBack, oController],
             content: [oList],
             headerContent: [],
             footer: new sap.m.Bar({})

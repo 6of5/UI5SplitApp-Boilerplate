@@ -4,7 +4,9 @@
     xmlns:core="sap.ui.core" >
     <Page
         title="{i18n>WELCOME_TITLE}"
-        enableScrolling="false">
+        enableScrolling="true"
+        showNavButton="{device>/isPhone}"
+        navButtonPress="doNavBack" >        
         <footer>
             <Bar>
             </Bar>
@@ -20,7 +22,11 @@
                 <Link
                     text="http://blog.mypro.de"
                     href="http://blog.mypro.de/tag/ui5boilerplate/" >
-                </Link>   
+                </Link>  
+                <Link
+                    text="UI5 Boilerplate Wiki Page"
+                    href="https://www.6of5.com/6of5/go/show/1001/UI5/displaypage.htm?PAGE=UI5Boilerplate" >
+                </Link>                   
                 <Text
                     text="UI5 SplitApp Boilerplate on GitHub:"
                     class="welcomeText" >
