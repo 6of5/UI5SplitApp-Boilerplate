@@ -31,9 +31,7 @@ sap.ui.jsview("view.App", {
 
         this.app = new sap.m.SplitApp({
             afterDetailNavigate: function() {
-                jQuery.sap.log.error("afterDetailNavigate");
                 if (sap.ui.Device.system.phone) {
-                    jQuery.sap.log.error("afterDetailNavigate hideMaster");
                     this.hideMaster();
                 }
             },
