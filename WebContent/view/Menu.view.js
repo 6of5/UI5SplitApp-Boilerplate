@@ -18,7 +18,7 @@ sap.ui.jsview("view.Menu", {
         });
 
         var oList = new sap.m.List({
-            selectionChange: oController.doNavOnSelect,
+            selectionChange: [oController.doNavOnSelect, oController],
             mode: sap.m.ListMode.SingleSelectMaster
         });
         oList.bindAggregation("items", "/Menu", oListTemplate);
@@ -38,7 +38,7 @@ sap.ui.jsview("view.Menu", {
             content: [oList],
             footer: new sap.m.Bar({
                 contentMiddle: [new sap.m.Link("myproLink", {
-                    text: "v0.6.0",
+                    text: "v0.7.0",
                     href: "http://blog.mypro.de/tag/ui5boilerplate/"
                 })]
             })

@@ -6,15 +6,8 @@ sap.ui.core.UIComponent.extend("app.Component", {
 
     createContent: function() {
 
-        //App View
-        var oView = sap.ui.jsview("app", "view.App");
+        // since v0.7.0 the Component is not needed anymore
+        // we keep it for your project specific usage
 
-        // set i18n model
-        var i18nModel = new sap.ui.model.resource.ResourceModel({
-            bundleUrl: "i18n/i18n.properties"
-        });
-        oView.setModel(i18nModel, "i18n");
-
-        return oView;
     }
 });
