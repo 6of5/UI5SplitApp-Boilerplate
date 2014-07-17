@@ -28,7 +28,7 @@
                     href="https://www.6of5.com/6of5/go/show/1001/UI5/displaypage.htm?PAGE=UI5Boilerplate" >
                 </Link>                   
                 <Text
-                    text="UI5 SplitApp Boilerplate on GitHub:"
+                    text="UI5 Boilerplate on GitHub:"
                     class="welcomeText" >
                 </Text>
                 <Link
