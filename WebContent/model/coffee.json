@@ -1,21 +1,26 @@
 {
     "Coffee": [{
+        "code": "CA1",
         "name": "Espresso",
         "calories": "5",
         "description": "Smooth and versatile Espresso Roast. Espresso has more caffeine per unit volume than most beverages."
     }, {
+        "code": "CA2",
         "name": "Cappuccino",
         "calories": "120",
         "description": "With less milk than a latte, cappuccino offers a stronger espresso flavor and a luxurious texture"
     }, {
+        "code": "CA3",
         "name": "Latte Macchiato",
         "calories": "190",
         "description": "This is the original coffeehouse classic."
     }, {
+        "code": "CA4",
         "name": "Brewed Coffee Black",
         "calories": "5",
         "description": "The clean, nutty taste of a good Colombia."
     }, {        
+        "code": "CO1",
         "name": "Hot Chocolate",
         "calories": "370",
         "description": "Sweet, creamy comfort in a cup. Made with steamed milk."

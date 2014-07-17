@@ -5,6 +5,11 @@
         "targetPage": "CoffeeList",
         "description": "Coffee Menu"
     }, {
+        "title": "New Features v1.22",
+        "icon": "sap-icon://favorite",
+        "targetPage": "NewFeatures-v122",
+        "description": "Demo - New v1.22 Features"        
+    }, {
         "title": "About",
         "icon": "sap-icon://sys-help",
         "targetPage": "Info",
