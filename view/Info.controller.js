@@ -1,4 +1,4 @@
-sap.ui.controller("view.Info", {
+sap.ui.controller("my-app.view.Info", {
 
     onInit: function() {
         this.bus = sap.ui.getCore().getEventBus();

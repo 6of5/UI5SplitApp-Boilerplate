@@ -11,7 +11,10 @@
     	src="https://openui5.netweaver.ondemand.com/resources/sap-ui-core.js" 
     	data-sap-ui-theme="sap_bluecrystal" 
     	data-sap-ui-xx-bindingSyntax="complex" 
-    	data-sap-ui-libs="sap.m">
+    	data-sap-ui-libs="sap.m"
+      data-sap-ui-resourceroots='{
+              "my-app": "./"
+          }'>
     </script>
     <!-- alternative SAPUI5/OpenUI5 locations
 		
@@ -31,8 +34,15 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <!-- all App JavaScript Code start in app.js, no Code in HTML -->
-    <script type="text/javascript" src="js/app.js"></script>
+    <!-- Use inline script and save one request for useless app.js -->
+    <script>
+      // start app after ui5 was initialized to be sure everything starts up correctly
+      sap.ui.getCore().attachInit(function() {
+          new sap.m.Shell("Shell", {
+            app: sap.ui.jsview("RootView", "my-app.view.App")
+          }).placeAt("root");
+      });
+    </script>
 </head>
 
 <body class="sapUiBody" id="root">
