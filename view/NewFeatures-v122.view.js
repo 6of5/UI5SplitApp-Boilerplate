@@ -2,17 +2,17 @@ jQuery.sap.require("sap.ui.layout.form.SimpleForm");
 jQuery.sap.require("sap.ui.unified.Calendar");
 jQuery.sap.require("sap.ui.unified.DateRange");
 
-sap.ui.jsview("view.NewFeatures-v122", {
+sap.ui.jsview("my-app.view.NewFeatures-v122", {
 
 	/**
-	 * Specifies the Controller belonging to this View. In the case that it is
+	 * Specifies the Controller belonging to this my-app.view. In the case that it is
 	 * not implemented, or that "null" is returned, this View does not have a
 	 * Controller.
 	 * 
-	 * @memberOf view.NewFeatues-v122
+	 * @memberOf my-app.view.NewFeatues-v122
 	 */
 	getControllerName : function() {
-		return "view.NewFeatures-v122";
+		return "my-app.view.NewFeatures-v122";
 	},
 
 	/**
@@ -20,7 +20,7 @@ sap.ui.jsview("view.NewFeatures-v122", {
 	 * is the place where the UI is constructed. Since the Controller is given
 	 * to this method, its event handlers can be attached right away.
 	 * 
-	 * @memberOf view.NewFeatues-v122
+	 * @memberOf my-app.view.NewFeatues-v122
 	 */
 	createContent : function(oController) {
 		var that = this;

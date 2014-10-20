@@ -1,7 +1,7 @@
-sap.ui.jsview("view.Menu", {
+sap.ui.jsview("my-app.view.Menu", {
 
     getControllerName: function() {
-        return "view.Menu";
+        return "my-app.view.Menu";
     },
 
     createContent: function(oController) {
