@@ -1,6 +1,6 @@
 jQuery.sap.require("sap.ui.model.json.JSONModel");
 
-sap.ui.controller("view.Menu", {
+sap.ui.controller("ui5bp.view.Menu", {
 
     onInit: function() {
         this.getView().setModel(new sap.ui.model.json.JSONModel("model/menu.json"));

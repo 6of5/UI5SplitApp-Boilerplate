@@ -1,7 +1,7 @@
-sap.ui.jsview("view.App", {
+sap.ui.jsview("ui5bp.view.App", {
 
     getControllerName: function() {
-        return "view.App";
+        return "ui5bp.view.App";
     },
 
     createContent: function(oController) {
@@ -45,11 +45,11 @@ sap.ui.jsview("view.App", {
             }
         });
 
-        this.app.addMasterPage(sap.ui.jsview("Menu", "view.Menu"));
+        this.app.addMasterPage(sap.ui.jsview("Menu", "ui5bp.view.Menu"));
 
-        this.app.addDetailPage(sap.ui.xmlview("Info", "view.Info"));
-        this.app.addDetailPage(sap.ui.jsview("CoffeeList", "view.CoffeeList"));
-        this.app.addDetailPage(sap.ui.jsview("NewFeatures-v122", "view.NewFeatures-v122"));
+        this.app.addDetailPage(sap.ui.xmlview("Info", "ui5bp.view.Info"));
+        this.app.addDetailPage(sap.ui.jsview("CoffeeList", "ui5bp.view.CoffeeList"));
+        this.app.addDetailPage(sap.ui.jsview("NewFeatures-v122", "ui5bp.view.NewFeatures-v122"));
         
         // navigate to the first page in both master and detail areas.
         // the toMaster must be called after calling the toDetail, because both of them point to the same reference in phone and 
