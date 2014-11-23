@@ -11,7 +11,10 @@
     	src="https://openui5.netweaver.ondemand.com/resources/sap-ui-core.js" 
     	data-sap-ui-theme="sap_bluecrystal" 
     	data-sap-ui-xx-bindingSyntax="complex" 
-    	data-sap-ui-libs="sap.m">
+    	data-sap-ui-libs="sap.m"
+        data-sap-ui-resourceroots='{
+            "ui5bp": "./"
+        }'>        >
     </script>
     <!-- alternative SAPUI5/OpenUI5 locations
 		
@@ -31,8 +34,11 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <!-- all App JavaScript Code start in app.js, no Code in HTML -->
-    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+        sap.ui.getCore().attachInit(function() {
+            sap.ui.jsview("RootView", "ui5bp.view.App").placeAt('root');
+        });
+    </script>
 </head>
 
 <body class="sapUiBody" id="root">

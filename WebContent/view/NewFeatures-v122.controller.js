@@ -1,4 +1,4 @@
-sap.ui.controller("view.NewFeatures-v122", {
+sap.ui.controller("ui5bp.view.NewFeatures-v122", {
 
 /**
 * Called when a controller is instantiated and its View controls (if available) are already created.

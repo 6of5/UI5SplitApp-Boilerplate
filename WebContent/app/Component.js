@@ -1,8 +1,8 @@
-jQuery.sap.declare("app.Component");
+jQuery.sap.declare("ui5bp.app.Component");
 
 jQuery.sap.require("sap.ui.model.resource.ResourceModel");
 
-sap.ui.core.UIComponent.extend("app.Component", {
+sap.ui.core.UIComponent.extend("ui5bp.app.Component", {
 
     createContent: function() {
 
