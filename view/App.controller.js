@@ -41,13 +41,17 @@ sap.ui.controller("ui5bp.view.App", {
 		// subscribe to event bus
 		var bus = sap.ui.getCore().getEventBus();
 		bus.subscribe("nav", "to", this.navHandler, this);
+		bus.subscribe("nav", "backToPage", this.navHandler, this);
 		bus.subscribe("nav", "back", this.navHandler, this);
 		bus.subscribe("nav", "virtual", this.navHandler, this);		
 	},
 	
 	navHandler: function (channelId, eventId, data) {
+		var app = this.getView().app;
 		if (eventId === "to") {
 			this.navTo(data.id, data.data, true);
+		} else if (eventId === "backToPage" && data && data.id) {
+			app.backToPage(data.id);
 		} else if (eventId === "back") {
 			if(data && data.id){
 				this.navBack(data.id);

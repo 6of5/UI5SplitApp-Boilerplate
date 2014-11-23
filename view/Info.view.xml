@@ -6,7 +6,16 @@
         title="{i18n>WELCOME_TITLE}"
         enableScrolling="true"
         showNavButton="{device>/isPhone}"
-        navButtonPress="doNavBack" >        
+        navButtonPress="doNavBack" >  
+        <headerContent>
+            <Button
+                icon="sap-icon://home"
+                tooltip="Back to Launchpad"
+                visible="{device>/launchpadMode}"
+                press="doNavBackLaunchpad"
+                >
+            </Button>
+        </headerContent>              
         <footer>
             <Bar>
             </Bar>

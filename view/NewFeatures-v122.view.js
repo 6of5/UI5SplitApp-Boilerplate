@@ -182,12 +182,21 @@ sap.ui.jsview("ui5bp.view.NewFeatures-v122", {
             ]
         });        
         
+        var oBtnLaunchpad = new sap.m.Button({
+            icon : "sap-icon://home",
+            visible : ui5bp.app.config.LaunchpadMode,
+            tooltip : "Back to Launchpad",
+            press : function(ev) {
+                sap.ui.getCore().getEventBus().publish("nav", "backToPage", {id : "Launchpad"});
+            }
+        });        
         
 		return new sap.m.Page({
 			title : "New Features v1.22 - Demo",
             showNavButton: "{device>/isPhone}",
             navButtonPress: [oController.doNavBack, oController],			
 			content : [ oIconTabBar ],
+            headerContent: [oBtnLaunchpad],			
             footer: new sap.m.Bar({})			
 		});
 	}
