@@ -2,46 +2,62 @@
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
 
-    <title>UI5 Boilerplate</title>
+    <title>UI5 Boilerplate (Cordova)</title>
 
     <!-- UI5 Bootstrap with OpenUI5 -->
     <script id="sap-ui-bootstrap" type="text/javascript" 
-    	src="https://openui5.netweaver.ondemand.com/resources/sap-ui-core.js" 
-    	data-sap-ui-theme="sap_bluecrystal" 
-    	data-sap-ui-xx-bindingSyntax="complex" 
-    	data-sap-ui-libs="sap.m"
+        src="resources/sap-ui-core.js" 
+        data-sap-ui-theme="sap_bluecrystal" 
+        data-sap-ui-xx-bindingSyntax="complex" 
+        data-sap-ui-libs="sap.m"
         data-sap-ui-resourceroots='{
             "ui5bp": "./"
         }'>        >
     </script>
     <!-- alternative SAPUI5/OpenUI5 locations
-		
-		//OpenUI5
-		src="https://openui5.netweaver.ondemand.com/resources/sap-ui-core.js"
+        
+        //For hybrid Web App (Cordova): copy UI5 Runtime Mobile into project under folder resources
+        src="resources/sap-ui-core.js"
 
-		//use SAPUI5 from SAP HANACloud
-		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+        //OpenUI5
+        src="https://openui5.netweaver.ondemand.com/resources/sap-ui-core.js"
 
-		//within Eclipse with SAP UI Development Toolkit for HTML5
-		src="resources/sap-ui-core.js"
-	
-		//serve locally with Node.js 
-		src="http://localhost:8888/sapui5/1.18.11/resources/sap-ui-core.js"
-	-->
+        //use SAPUI5 from SAP HANACloud
+        src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+
+        //within Eclipse with SAP UI Development Toolkit for HTML5
+        src="resources/sap-ui-core.js"
+    
+        //serve locally with Node.js 
+        src="http://localhost:8888/sapui5/1.18.11/resources/sap-ui-core.js"
+    -->
 
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <script>
-        sap.ui.getCore().attachInit(function() {
-            sap.ui.jsview("RootView", "ui5bp.view.App").placeAt('root');
-        });
-    </script>
 </head>
 
 <body class="sapUiBody" id="root">
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- Combine UI5 Init with Cordova deviceready event -->
+    <script type="text/javascript">
+        sapui5init = false;
+        function init(){
+            if(sapui5init){
+                sap.ui.jsview("RootView", "ui5bp.view.App").placeAt('root');
+            } else {
+                sap.ui.getCore().attachInit(function() {
+                    sap.ui.jsview("RootView", "ui5bp.view.App").placeAt('root');
+                 });
+            }
+        }
+        sap.ui.getCore().attachInit(function() {
+            sapui5init = true;
+        });
+        document.addEventListener('deviceready', init, false);
+    </script>    
 </body>
 
 </html>
