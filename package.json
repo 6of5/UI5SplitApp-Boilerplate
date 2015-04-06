@@ -4,13 +4,16 @@
     "description": "UI5 Mobile Boilerplate",
     "main": "index.html",
     "dependencies": {
-        "express": "~3.4.8",
-        "open": "~0.0.4"
+        "compression": "^1.4.3",
+        "express": "~4.12.3",
+        "open": "~0.0.5",
+        "serve-index": "^1.6.3",
+        "serve-static": "^1.9.2"
     },
     "devDependencies": {
-        "grunt": "~0.4.2",
-        "grunt-express-server": "~0.4.11",
-        "grunt-contrib-watch": "~0.5.3",
+        "grunt": "~0.4.5",
+        "grunt-express-server": "~0.4.19",
+        "grunt-contrib-watch": "~0.6.1",
         "grunt-open": "~0.2.3"
     },
     "scripts": {
