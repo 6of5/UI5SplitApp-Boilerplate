@@ -1,6 +1,6 @@
 {
     "name": "ui5-boilerplate",
-    "version": "0.6.1",
+    "version": "0.8.0",
     "description": "UI5 Mobile Boilerplate",
     "main": "index.html",
     "dependencies": {
