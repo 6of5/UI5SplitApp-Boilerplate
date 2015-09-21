@@ -6,7 +6,7 @@ var urlConfig = {
     host : 'localhost',
     port : '8877',
     urlPath : '/ui5-boilerplate'
-}
+};
 
 module.exports = function(grunt) {
 
@@ -30,6 +30,11 @@ module.exports = function(grunt) {
             dev: {
                 path: urlConfig.protocol + '://' + urlConfig.host + ':' + urlConfig.port + urlConfig.urlPath
             }
+            // add "app", if you wish to specify the browser (e.g. Google Chrome):
+            // dev: {
+            //     path: urlConfig.protocol + '://' + urlConfig.host + ':' + urlConfig.port + urlConfig.urlPath,
+            //     app: 'Google Chrome'
+            // }
         },
         express: {
             options: {
